@@ -35,7 +35,7 @@ spec:
         app: flask-app
     spec:
       containers:
-        - image: "tamato1/flask-app:v1"
+        - image: "tamato1/flask-app:1"
           name: flask-app
           ports:
             - containerPort: 5000
